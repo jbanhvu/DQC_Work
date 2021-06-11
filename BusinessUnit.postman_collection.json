@@ -1,0 +1,160 @@
+{
+	"info": {
+		"_postman_id": "d88b1f68-b2b2-4a58-8680-35365350553e",
+		"name": "BusinessUnit",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Server test",
+			"item": [
+				{
+					"name": "https://api-bu-dev.apphomecare.vn/EndUserRequest/Read",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "access_token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vYXBpLWRpc3RyaWJ1dG9yLmFwcGhvbWVjYXJlLnZuIiwiaWF0IjoxNjIyOTExMTA2LCJuYmYiOjE2MjI5MTExMDYsImp0aSI6IktwT1JSSXB1NWJRcEQxeXQiLCJzdWIiOiIxMiIsInBydiI6IjgwNjNjZmY1ZjMzZDNiOWM3YjY5NGY0YzVjZGM5NjU3MDFmMGI4YzIiLCJ1c2VyIjp7ImlkIjoxMiwiZW1haWwiOm51bGx9fQ.6JlLDSChlRGtRlagM85apVzGhIzTqs3yXWe2sWAfEO0",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "https://api-bu-dev.apphomecare.vn/EndUserRequest/Read",
+							"protocol": "https",
+							"host": [
+								"api-bu-dev",
+								"apphomecare",
+								"vn"
+							],
+							"path": [
+								"EndUserRequest",
+								"Read"
+							],
+							"query": [
+								{
+									"key": "userId",
+									"value": "1",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "https://api-distributor-dev.apphomecare.vn/Distributor/getListUserByAccountId",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "accountID",
+									"value": "39",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "https://api-distributor-dev.apphomecare.vn/Distributor/getListUserByAccountId",
+							"protocol": "https",
+							"host": [
+								"api-distributor-dev",
+								"apphomecare",
+								"vn"
+							],
+							"path": [
+								"Distributor",
+								"getListUserByAccountId"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Localhost",
+			"item": [
+				{
+					"name": "https://localhost:44302/EndUserInfo/Read",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "access_token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vYXBpLWRpc3RyaWJ1dG9yLmFwcGhvbWVjYXJlLnZuIiwiaWF0IjoxNjIyOTExMTA2LCJuYmYiOjE2MjI5MTExMDYsImp0aSI6IktwT1JSSXB1NWJRcEQxeXQiLCJzdWIiOiIxMiIsInBydiI6IjgwNjNjZmY1ZjMzZDNiOWM3YjY5NGY0YzVjZGM5NjU3MDFmMGI4YzIiLCJ1c2VyIjp7ImlkIjoxMiwiZW1haWwiOm51bGx9fQ.6JlLDSChlRGtRlagM85apVzGhIzTqs3yXWe2sWAfEO0",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "https://localhost:44302/EndUserInfo/Read",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "44302",
+							"path": [
+								"EndUserInfo",
+								"Read"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "https://localhost:44302/EndUserOrder/Read",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "access_token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vYXBpLWRpc3RyaWJ1dG9yLmFwcGhvbWVjYXJlLnZuIiwiaWF0IjoxNjIyOTExMTA2LCJuYmYiOjE2MjI5MTExMDYsImp0aSI6IktwT1JSSXB1NWJRcEQxeXQiLCJzdWIiOiIxMiIsInBydiI6IjgwNjNjZmY1ZjMzZDNiOWM3YjY5NGY0YzVjZGM5NjU3MDFmMGI4YzIiLCJ1c2VyIjp7ImlkIjoxMiwiZW1haWwiOm51bGx9fQ.6JlLDSChlRGtRlagM85apVzGhIzTqs3yXWe2sWAfEO0",
+									"type": "text"
+								},
+								{
+									"key": "issue_id",
+									"value": "105",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "https://localhost:44302/EndUserOrder/Read",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "44302",
+							"path": [
+								"EndUserOrder",
+								"Read"
+							],
+							"query": [
+								{
+									"key": "access_token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vYXBpLWRpc3RyaWJ1dG9yLmFwcGhvbWVjYXJlLnZuIiwiaWF0IjoxNjIyOTExMTA2LCJuYmYiOjE2MjI5MTExMDYsImp0aSI6IktwT1JSSXB1NWJRcEQxeXQiLCJzdWIiOiIxMiIsInBydiI6IjgwNjNjZmY1ZjMzZDNiOWM3YjY5NGY0YzVjZGM5NjU3MDFmMGI4YzIiLCJ1c2VyIjp7ImlkIjoxMiwiZW1haWwiOm51bGx9fQ.6JlLDSChlRGtRlagM85apVzGhIzTqs3yXWe2sWAfEO0",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
