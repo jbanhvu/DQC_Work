@@ -1,0 +1,3 @@
+SELECT * FROM account LIMIT 100;
+SELECT * FROM telephone_verify;
+SELECT * FROM telephone;
